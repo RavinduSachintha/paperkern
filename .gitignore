@@ -50,3 +50,4 @@ src/environments/environment.prod.ts
 
 # Storybook documentation
 documentation.json
+/storybook-static

@@ -51,3 +51,21 @@ export const ButtonThemeTemplates = {
     size: 'large',
   },
 };
+
+export enum TextareaThemes {
+  STD_PRIMARY = 'STD_PRIMARY',
+  STD_SECONDARY = 'STD_SECONDARY',
+}
+
+export const TextareaThemeTemplates = {
+  STD_PRIMARY: {
+    mode: 'primary-light',
+    border: false,
+    shadow: true,
+  },
+  STD_SECONDARY: {
+    mode: 'secondary-light',
+    border: true,
+    shadow: false,
+  },
+};

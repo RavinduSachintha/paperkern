@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PepComponent } from './components/pep/pep.component';
 import { ButtonComponent } from './components/button/button.component';
+import { TextareaComponent } from './components/textarea/textarea.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PepComponent,
-    ButtonComponent
+    ButtonComponent,
+    TextareaComponent
   ],
   imports: [
     BrowserModule,
