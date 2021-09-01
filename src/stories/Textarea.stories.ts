@@ -14,11 +14,10 @@ const Template: Story<TextareaComponent> = (args: TextareaComponent) => ({
   props: args,
 });
 
-export const Textarea_With_Content = Template.bind({});
-Textarea_With_Content.args = {
+export const TextareaWithContent = Template.bind({});
+TextareaWithContent.args = {
   content: 'Textarea content',
 };
 
-export const Textarea_Without_Content = Template.bind({});
-Textarea_Without_Content.args = {
-};
+export const TextareaWithoutContent = Template.bind({});
+TextareaWithoutContent.args = {};
